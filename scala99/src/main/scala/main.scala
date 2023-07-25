@@ -1,8 +1,5 @@
 import task1.functions.last1
 
-object CubeCalculator extends App {
-  def cube(x: Int) = {
-    x * x * x
-  }
-  print(cube(3))
+object mainapp extends App {
+  println(last1(List(1,2,3,4,5)))
 }
