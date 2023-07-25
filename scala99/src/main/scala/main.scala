@@ -1,4 +1,4 @@
-import task1.task1_method1
+import task1.functions.last1
 
 object CubeCalculator extends App {
   def cube(x: Int) = {
