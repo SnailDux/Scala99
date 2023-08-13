@@ -1,6 +1,7 @@
 import task1.functions.last1
+import task1.functions.last2
 
-class 99ProblemsTask1  extends org.scalatest.funsuite.AnyFunSuite {
+class Task1Test extends org.scalatest.funsuite.AnyFunSuite {
 
   test("task1.functions.last1, should give last element of list"){
     assert(last1(List(1,2,3)) === 3)
@@ -20,6 +21,6 @@ class 99ProblemsTask1  extends org.scalatest.funsuite.AnyFunSuite {
     assertThrows[NoSuchElementException]{
       (last2(List()))
     }
-  }  
+  }
 
 }
