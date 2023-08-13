@@ -5,7 +5,9 @@ object functions{
     a match {
       case h :: Nil => h
       case _ :: tail => last1(tail)
-      case _ => throw new Exception
-  }
+      case _ => throw new NoSuchElementException
+    }
+
+  def last2[A](a: List[A]): A = a.last
 }
 
