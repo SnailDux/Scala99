@@ -7,4 +7,7 @@ object functions{
       case h :: t => penultimate1(t)
       case _ => throw new NoSuchElementException
     }
+
+  def penultimate2[A](l: List[A]): A =
+    l.init.last
 }
